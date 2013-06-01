@@ -5,7 +5,7 @@ class P008 {
     if(seq.isEmpty) {
       return max
     }
-    println(seq.head, max, count, product)
+
     if(count < 4) {
       run(seq.tail, max, count+1, product*seq.head.asDigit)
     } else {
