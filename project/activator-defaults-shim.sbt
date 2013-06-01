@@ -14,4 +14,4 @@ fullResolvers <<= (fullResolvers, bootResolvers) map {
 // for a person at a command line).
 // In future plans, we want plugins to have a built-in ability to be
 // remote-controlled by a UI and then we would drop the shims.
-addSbtPlugin("com.typesafe.activator" % "sbt-shim-defaults" % "0.1.1")
+addSbtPlugin("com.typesafe.activator" % "sbt-shim-defaults" % "0.1.3")
