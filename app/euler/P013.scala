@@ -103,5 +103,5 @@ object P013 extends App {
     "53503534226472524250874054075591789781264330331690")
 
   val sum = list.foldLeft(BigInt(0))(_ + BigInt(_))
-  print(sum)
+  print(sum.toString.substring(0,10))
 }
