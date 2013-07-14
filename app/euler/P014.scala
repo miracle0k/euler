@@ -9,8 +9,9 @@ object P014 extends App {
     }
   }
   
-  val range = 1 to 1000000
-  
+  //val range = 1 to 1000000
+  val range = 1 to 100
+
   val r = range.foldLeft((1, 0))((b, a) => {
     val cnt = run(a)
     if (b._2 < cnt) {
